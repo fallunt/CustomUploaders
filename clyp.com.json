@@ -1,0 +1,13 @@
+{
+  "Name": "Clyp.com",
+  "RequestType": "POST",
+  "RequestURL": "https://upload.clyp.it/upload",
+  "FileFormName": "audioFile",
+
+  },
+  "ResponseType": "Text",
+  "RegexList": [
+    "(?<=//)(.+?)(?=")"
+  ],
+  "URL": "https://$1$"
+}
